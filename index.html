@@ -87,7 +87,7 @@ textarea{
 
 <h3 style="text-align:center">Digite o valor</h3>
 
-<input id="valor" placeholder="R$ 0,00" type="number" step="0.01">
+<input id="valor" placeholder="R$ 0,00" type="text" inputmode="numeric">
 
 <button onclick="gerar()">GERAR COBRANÇA</button>
 
@@ -102,7 +102,7 @@ textarea{
 </div>
 
 <script>
-// DADOS FIXOS DA SUA CONTA
+// DADOS DA SUA CONTA
 const CHAVE="54162152000110";
 const NOME="REISSON DOS S E SANTOS";
 const CIDADE="SANTO ANTONIO";
