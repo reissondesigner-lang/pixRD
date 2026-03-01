@@ -173,7 +173,7 @@ inputValor.addEventListener("input", (e) => {
 
   let numero = parseInt(valor || 0) / 100;
 
-  document.getElementById("btnGerar").disabled = !(numero > 0.01);
+  document.getElementById("btnGerar").disabled = !(numero > 0.00);
 
   valor = (numero).toFixed(2);
 
